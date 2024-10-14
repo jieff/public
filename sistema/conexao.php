@@ -1,12 +1,17 @@
 <?php 
 
-$banco = 'googab81_barbearia';
-$usuario = 'googab81_barbearia';
-$senha = '7WY-TvwwhHLu';
-$servidor = 'localhost';
+#$banco = 'googab81_barbearia';
+$banco = 'barbearia';
+#$usuario = 'googab81_barbearia';
+$usuario = 'admin';
+#$senha = '7WY-TvwwhHLu';
+$senha = 'admin';
+#$servidor = 'localhost';
+$servidor = 'mysql';
 
 
-$url_sistema = "https://barbearia.rigsite.com.br";
+#$url_sistema = "https://barbearia.rigsite.com.br";
+$url_sistema = "https://localhost";
 $url = explode("//", $url_sistema);
 if($url[1] == 'localhost/'){
 	$url_sistema = "http://$_SERVER[HTTP_HOST]/barbearia/";

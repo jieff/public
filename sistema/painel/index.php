@@ -255,7 +255,6 @@ $dataMesInicial = $partesInicial[1];
 							</li>
 
 
-
 							<li class="treeview <?php echo $menu_agendamentos ?>">
 								<a href="#">
 									<i class="fa fa-calendar-o"></i>
@@ -304,9 +303,7 @@ $dataMesInicial = $partesInicial[1];
 								</ul>
 							</li>
 
-
-
-
+							
 
 							<li class="treeview <?php echo $menu_site ?>" >
 								<a href="#">
@@ -331,11 +328,21 @@ $dataMesInicial = $partesInicial[1];
 
 
 							<?php if(@$atendimento == 'Sim'){ ?>
+							
+							<li class="treeview">
+								<a href="index.php?pag=whatsapp">
+									<i class="fa fa-whatsapp" style="color: #FFFFFF;"></i> <span>WhatsApp</span>
+								</a>
+							</li>
+							
+
 							<li class="treeview">
 								<a href="index.php?pag=agenda">
 									<i class="fa fa-calendar-o"></i> <span>Minha Agenda</span>
 								</a>
 							</li>
+
+							
 							
 							<li class="treeview">
 								<a href="index.php?pag=meus_servicos">
